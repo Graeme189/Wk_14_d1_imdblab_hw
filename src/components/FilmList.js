@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Film from './Film.js';
+import FilmCSS from '../FilmCSS.css';
 
 class FilmList extends Component {
   render() {
@@ -17,7 +18,9 @@ class FilmList extends Component {
       <>
       {filmNodes}
       <hr/>
-      <h1><a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases</a></h1>
+      <div className="box">
+      <h1><a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases >></a></h1>
+      </div>
       </>
     );
   }

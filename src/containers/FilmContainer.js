@@ -39,7 +39,6 @@ class FilmContainer extends Component {
         <h1>Upcoming film releases for UK</h1>
         <hr/>
         <FilmList films={this.state.films} />
-
       </>
     );
   }

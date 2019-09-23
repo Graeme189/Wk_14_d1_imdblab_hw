@@ -1,0 +1,16 @@
+body {
+  background-color: lightgrey;
+  border: 4px;
+}
+
+div.box {
+  background-color: lightblue;
+  font-size: 10px;
+  margin: 6px;
+  padding: 5px;
+  border-style: solid;
+}
+
+li {
+  padding-left: 50px;
+}
