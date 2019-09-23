@@ -29,16 +29,19 @@ class FilmContainer extends Component {
           id: 5,
           name: "Captain Marvel",
           url: "https://www.imdb.com/title/tt4154664/?ref_=rlm"
-        }
+        },
       ]
-    }
+    };
   }
   render() {
     return (
       <>
         <h1>Upcoming film releases for UK</h1>
+        <hr/>
+        <FilmList films={this.state.films} />
+
       </>
-    )
+    );
   }
 }
 
